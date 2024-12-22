@@ -23,12 +23,4 @@ Low-light images are often noisy, lack contrast, and appear blurry. These issues
 - **Save Enhanced Images**: Option to save the enhanced image in a specific directory.
 - **Iterative Enhancement**: Tune the number of iterations, alpha, rho, gamma, and strategy parameters for better results.
 
-## Installation
 
-### Prerequisites
-
-To run this project, you need **Python 3.7** or higher.
-
-1. Install the required libraries using the following command:
-   ```bash
-   pip install tkinter pillow scipy scikit-image numpy tqdm matplotlib argparse
