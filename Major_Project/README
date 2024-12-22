@@ -1,0 +1,34 @@
+# Deep Learning-Based Low Light Image Enhancement for Improved Visibility
+
+## Project Overview
+
+This project utilizes deep learning-based techniques for **image enhancement**, focusing on improving the visibility of low-light images. It uses **Local Illumination Map Enhancement (LIME)** to enhance the quality of images in challenging lighting conditions. The GUI allows users to enhance images interactively while evaluating the performance of the algorithm using **PSNR (Peak Signal-to-Noise Ratio)**, **SSIM (Structural Similarity Index)**, and **MSE (Mean Squared Error)** metrics.
+
+## Problem Statement
+
+Low-light images are often noisy, lack contrast, and appear blurry. These issues make it difficult to analyze important features in applications like surveillance, medical imaging, and photography. Traditional enhancement techniques may fail in extreme low-light conditions, which is why a deep learning-based solution is needed to improve image clarity, contrast, and overall visibility.
+
+## Objectives
+
+- **Enhance low-light images**: Apply a deep learning-based algorithm to improve visibility.
+- **Provide performance metrics**: Evaluate the enhancement quality using PSNR, SSIM, and MSE.
+- **Create a GUI**: Build a simple interface for easy image selection and enhancement.
+- **Save enhanced images**: Option to save enhanced images to a chosen directory.
+
+## Features
+
+- **Image Enhancement**: Uses the LIME algorithm to enhance low-light images and improve visibility.
+- **Metrics Calculation**: Displays PSNR, SSIM, and MSE values to evaluate image quality.
+- **Graphical User Interface (GUI)**: A simple interface that allows users to select, enhance, and view images.
+- **Save Enhanced Images**: Option to save the enhanced image in a specific directory.
+- **Iterative Enhancement**: Tune the number of iterations, alpha, rho, gamma, and strategy parameters for better results.
+
+## Installation
+
+### Prerequisites
+
+To run this project, you need **Python 3.7** or higher.
+
+1. Install the required libraries using the following command:
+   ```bash
+   pip install tkinter pillow scipy scikit-image numpy tqdm matplotlib argparse
